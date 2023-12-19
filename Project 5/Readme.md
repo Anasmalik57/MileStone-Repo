@@ -32,7 +32,7 @@ In this section, PixLab's services are highlighted through three distinct cards:
 
 ## Setup
 To view the PixLab landing page locally, follow these steps:
-1. Clone this repository: `git clone https://github.com/this-username/pixlab-landing-page.git`
+1. Clone this repository: `git clone git clone https://github.com/Anasmalik57/MileStone-Repo.git`
 2. Open the `index.html` file in your preferred web browser.
 
 Feel free to explore, modify, and enhance the code to meet your specific requirements. If you have any questions or feedback, please don't hesitate to reach out. Thank you for visiting PixLab!

@@ -22,4 +22,4 @@ The E Guru Homepage is a static webpage implemented in HTML. It features a clean
 Feel free to use this HTML code as a template for this educational platform's landing page. Customize the content, images, and styles to align with this branding and requirements. You can clone this repository or copy the HTML code into this own HTML file.
 
 ```bash
-# git clone https://github.com/Anasmalik/this-repository.git
+git clone https://github.com/Anasmalik57/MileStone-Repo.git

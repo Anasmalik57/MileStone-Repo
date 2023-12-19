@@ -42,7 +42,8 @@ To view the Bike Landing Page, simply open the `index.html` file in a web browse
 
 ```bash
 # Clone the repository
-git clone https://github.com/this-username/bike-landing-page.git
+git clone https://github.com/Anasmalik57/MileStone-Repo.git
+
 
 ## Usage
 

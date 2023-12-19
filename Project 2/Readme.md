@@ -28,8 +28,7 @@ The Hospital Landing Page is a web page template designed for hospitals to showc
 Clone the repository and open the `index.html` file in a web browser to view the Hospital Landing Page.
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/Anasmalik57/MileStone-Repo.git
 ```
 
 ### Sections

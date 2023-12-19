@@ -28,7 +28,8 @@ You can use this HTML code as a template for this own NFT landing page. Feel fre
 To get started, clone this repository or copy the HTML code into this own HTML file. Customize the content, images, and styles to match this branding and requirements.
 
 bash
-git clone https://github.com/this-username/this-repository.git
+git clone git clone https://github.com/Anasmalik57/MileStone-Repo.git
+
 
 
 ## Dependencies
