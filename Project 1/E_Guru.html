@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E Guru Homepage</title>
-    
- 
+
+
     <style>
-        *{
+        * {
             margin: 0;
             box-sizing: border-box;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
-        nav{ 
+
+        nav {
             width: 100%;
             height: 75px;
             display: flex;
@@ -21,34 +23,41 @@
             background-color: #fff;
             /* border-bottom: 2px solid black; */
         }
-        .logo{
+
+        .logo {
             display: flex;
             align-items: center;
             gap: 15px;
         }
-        .logo > span{
+
+        .logo>span {
             font-size: 27px;
             font-weight: 600;
         }
-        ul{
+
+        ul {
             display: flex;
             justify-content: space-evenly;
             gap: 65px;
             font-size: 17px;
         }
-        ul > a{
+
+        ul>a {
             text-decoration: none;
             color: #ffffff;
             font-weight: 600;
             color: rgba(150, 147, 147, 0.925);
         }
-        ul > a:hover{
+
+        ul>a:hover {
             color: #00ff2ac4;
         }
-        a:nth-child(1){
+
+        a:nth-child(1) {
             color: #FF5202;
         }
-        button{
+
+        button {
             padding: 15px 40px;
             /* padding: 4px; */
             border: 1.6px solid black;
@@ -57,7 +66,8 @@
             background-color: transparent;
             cursor: pointer;
         }
-        .MainSection{
+
+        .MainSection {
             width: 100%;
             box-sizing: border-box;
             height: auto;
@@ -67,19 +77,22 @@
             flex-wrap: wrap;
             flex-direction: row;
             overflow: hidden;
-            padding: 90px 200px;
+            padding: 140px 200px;
             /* background-color: gray; */
         }
-        .content{
+
+        .content {
             font-size: 32px;
             /* padding: 10px 50px; */
         }
-        .content > h1{
+
+        .content>h1 {
             text-transform: uppercase;
             padding-bottom: 40px;
             /* letter-spacing: 3px; */
         }
-        .content > p{
+
+        .content>p {
             font-size: 22px;
             color: gray;
             font-weight: 100;
@@ -89,58 +102,70 @@
             padding-right: 400px;
             border-left: 1.8px solid gray;
         }
-        .btn{
+
+        .btn {
             margin-top: 40px;
             /* gap: 150px; */
         }
-        .btn > .get{
+
+        .btn>.get {
             background-color: #FF5202;
             color: #fff;
         }
-        .btn > .get:hover{
+
+        .btn>.get:hover {
             /* background-color: transparent; */
-             color: #76ef76;
+            color: #76ef76;
         }
-        .btn > .learn{
+
+        .btn>.learn {
             background-color: transparent;
             color: #000;
         }
-        .btn > .learn:hover{
+
+        .btn>.learn:hover {
             /* background-color: #FF5202; */
-             color: #76ef76;
+            color: #76ef76;
         }
-        .profile{
+
+        .profile {
             display: none;
         }
-        .pics{
+
+        .pics {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        .pics > img:nth-child(3){
+
+        .pics>img:nth-child(3) {
             width: 316px;
             height: auto;
         }
-        
+
+        .item1 {
+            position: absolute;
+    top: 167px;
+    right: 122px;
+        }
+
         .item2 {
             position: absolute;
             right: 103px;
             top: 135px;
             z-index: 2;
         }
-        
+
         .item3 {
             position: absolute;
             right: 185px;
             top: 165px;
-            /* overflow: hidden; */
-            /* border: 2px solid  aqua; */
-            /* padding: 0px 50px; */
             border-bottom-left-radius: 80px;
             border-bottom-right-radius: 80px;
             z-index: 1;
         }
-        .box{
+
+        .box {
             position: absolute;
             width: 217px;
             height: 57px;
@@ -149,27 +174,32 @@
             border-radius: 0px 0px 45% 45%;
             right: 235px;
         }
-        
-        .elem{
+
+        .elem {
             position: absolute;
         }
-        .elem1{
+
+        .elem1 {
             right: 43%;
             top: 20%;
         }
-        .elem2{
+
+        .elem2 {
             right: 57%;
-            top: 75%;
+            top: 84%;
         }
-        .elem3{
+
+        .elem3 {
             right: 36%;
             top: 90%;
         }
-        .elem4{
+
+        .elem4 {
             right: 7%;
             top: 80%;
         }
-        footer{
+
+        footer {
             width: 100%;
             height: auto;
             display: flex;
@@ -180,59 +210,73 @@
             color: #fff;
             padding: 60px 80px;
         }
-        .footr > h1{
+
+        .footr>h1 {
             font-size: 42px;
             line-height: 1.5;
             font-weight: 500;
             padding-bottom: 10px;
         }
-        .footr > p{
+
+        .footr>p {
             font-size: 20px;
             color: gainsboro;
             line-height: 1.5;
         }
-        .footr{
+
+        .footr {
             width: 309px;
             height: auto;
         }
-        .footr > h3{
+
+        .footr>h3 {
             text-transform: uppercase;
             font-weight: 500;
             font-size: 20px;
         }
-        .vector{
+
+        .vector {
             cursor: pointer;
         }
-        .vector > img{
+
+        .vector>img {
             width: 50px;
             height: 50px;
             border-radius: 18%;
             padding: 15px;
         }
-        .vector > h3{
+
+        .vector>h3 {
             padding: 30px 0px 20px 0px;
             font-size: 26px;
         }
-        .vector > p{
+
+        .vector>p {
             line-height: 1.7;
             width: 180px;
             height: auto;
             color: gainsboro;
             font-size: 18px;
         }
-        .vector1 > img{
+
+        .vector1>img {
             background-color: #6e44ff;
         }
-        .vector2 > img{
+
+        .vector2>img {
             background-color: #ff6000;
         }
-        .vector3 > img{
+
+        .vector3>img {
             background-color: #44e4c9;
         }
-        .menu{
+
+        .menu {
             display: none;
         }
+
         /* Media Queries */
+        /* Perfect For 745px */
         @media screen and (min-width: 700px) and (max-width: 900px) {
             .links{
                 display: none;
@@ -247,12 +291,11 @@
             .pics{
                 margin: 75px auto;
                 order: 1;
-                /* margin-right: 10px; */
             }
             .item1{
                     position: relative;
-                    bottom: 120px;
-                    left: 38px;
+                    top: -120px;
+                    left: 25px;
                 }
             .item2{
                 top: 488px;
@@ -274,7 +317,6 @@
                 font-size: 20px;
             }
             .btn{
-                /* text-align: center; */
                 display: flex;
                 justify-content: space-evenly;
                 margin-bottom: 90px;
@@ -329,9 +371,9 @@
             display: none;
            }
         }
-
     </style>
 </head>
+
 <body style="background-color: #FCFCFC;">
     <header>
         <!-- NAvbar Here -->
@@ -352,8 +394,8 @@
                 <a href="#">About Us</a>
                 <a href="#">Features</a>
                 <a href="#">How it works</a>
-            </ul>  
-            
+            </ul>
+
             <!-- Button -->
             <div class="signUp">
                 <button>Sign Up</button>
@@ -371,7 +413,7 @@
             <h1>Study From <br> home with Expert</h1>
             <p class="para">A learning system based on formalized teaching with the help of resources</p>
             <div class="btn">
-                <button class="get" >Get Started</button>
+                <button class="get">Get Started</button>
                 <button class="learn">Learn More</button>
             </div>
         </div>
@@ -380,7 +422,7 @@
             <img class="item2" src="./assets/main-image-pattern.png" alt="main image pattern">
             <img class="item3" src="./assets/main-image.png" alt="">
             <div class="box"></div>
-            
+
             <!-- Elements -->
             <div class="elements">
                 <img class="elem elem1" src="./assets/orange-arrow.png" alt="element 1">
@@ -392,30 +434,31 @@
         </div>
 
     </main>
-    
 
-        <!-- Footer Section -->
-        <footer>
-            <div class=" footr">
-                <h1>WHY WE ARE THE BEST</h1>
-                <p>A learning system based on formalized teaching with the help of....</p>
-            </div>
-            <div class="vector3 vector ">
-                <img src="./assets/vector3.png" alt="Vector 1">
-                <h3>Expert Teacher</h3>
-                <p>A learning system based on formalized teaching</p>
-            </div>
-            <div class="vector2 vector ">
-                <img src="./assets/vector2.png" alt="Vector 1">
-                <h3>Online Courses</h3>
-                <p>A learning system based on formalized teaching</p>
-            </div>
-            <div class="vector1 vector ">
-                <img src="./assets/vector1.png" alt="Vector 1">
-                <h3>24/7 Support</h3>
-                <p>A learning system based on formalized teaching</p>
-            </div>
-            
-        </footer>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class=" footr">
+            <h1>WHY WE ARE THE BEST</h1>
+            <p>A learning system based on formalized teaching with the help of....</p>
+        </div>
+        <div class="vector3 vector ">
+            <img src="./assets/vector3.png" alt="Vector 1">
+            <h3>Expert Teacher</h3>
+            <p>A learning system based on formalized teaching</p>
+        </div>
+        <div class="vector2 vector ">
+            <img src="./assets/vector2.png" alt="Vector 1">
+            <h3>Online Courses</h3>
+            <p>A learning system based on formalized teaching</p>
+        </div>
+        <div class="vector1 vector ">
+            <img src="./assets/vector1.png" alt="Vector 1">
+            <h3>24/7 Support</h3>
+            <p>A learning system based on formalized teaching</p>
+        </div>
+
+    </footer>
 </body>
+
 </html>
