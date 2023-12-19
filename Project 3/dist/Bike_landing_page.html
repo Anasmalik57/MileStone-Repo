@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
+    <style>
+       body{
+        /* Sorry for that but I don't have actually same Font here */
+            font-family: 'Lato', sans-serif;;
+       }
+      </style>
+</head>
+<body>
+
+        <!-- Navbar Here -->
+        <nav class="w-full h-20 bg-white shadow-md flex flex-wrap justify-between items-center px-12 uppercase">
+            <div class="cursor-pointer">
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <ul class="flex flex-nowrap justify-between items-center gap-8 text-">
+                <li class="flex justify-center items-center gap-1 cursor-pointer">Products
+                    <svg  width="15" height="15" viewBox="0 0 16 7" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" d="M8 6.5a.47.47 0 0 1-.35-.15l-4.5-4.5c-.2-.2-.2-.51 0-.71c.2-.2.51-.2.71 0l4.15 4.15l4.14-4.14c.2-.2.51-.2.71 0c.2.2.2.51 0 .71l-4.5 4.5c-.1.1-.23.15-.35.15Z"/>
+                    </svg>
+                </li>
+                <li class="cursor-pointer">Gallery</li>
+                <li class="cursor-pointer">Contact</li>
+            </ul>
+            <div  class="flex gap-4">
+                <button class="bg-white rounded-md px-10 py-4 text-gray-700 uppercase shadow-md tracking-wider font-semibold">Log In</button>
+                <button class="bg-slate-700 rounded-md px-10 py-4 text-white uppercase tracking-wider font-semibold">Sign Up</button>
+            </div>
+        </nav>
+
+
+        <!-- First Section Here -->
+        <section class="w-full h-[110vh] px-10 flex">
+            <div class="mt-16">
+                <h1 class="text-8xl py-20 uppercase leading-tight text-slate-800">Let's ride  <br>
+                    <span class="font-bold">the future</span>
+                </h1>
+                <hr class="w-[350px] h-1.5 bg-slate-700 -mt-15  ">
+                <p></p>
+                <div class="mt-6 flex gap-40">
+                    <span class="flex gap-2 justify-start items-center">
+                        <svg class="w-14 h-14 p-2 bg-slate-800 text-white" width="25" height="25" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" d="M5 13h11.86l-3.63 4.36a1 1 0 0 0 1.54 1.28l5-6a1.19 1.19 0 0 0 .09-.15c0-.05.05-.08.07-.13A1 1 0 0 0 20 12a1 1 0 0 0-.07-.36c0-.05-.05-.08-.07-.13a1.19 1.19 0 0 0-.09-.15l-5-6A1 1 0 0 0 14 5a1 1 0 0 0-.64.23a1 1 0 0 0-.13 1.41L16.86 11H5a1 1 0 0 0 0 2"/>
+                        </svg>
+                        Buy Now
+                    </span>
+                    <span class="flex justify-center items-center">
+                    <p class="w-20 text-gray-700">
+                        Watch our video how it works
+                    </p>
+                        <img src="./assets/header play button.png" alt="">
+                    </span>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./assets/header image.png" alt="">
+                    <!-- Absolute Image Section -->
+                <div class=" flex justify-end items-center absolute right-2 gap-8 mr-12 pb-8">
+                    <img src="./assets/01.png" alt="">
+                    <div class="border-4 rounded-full border-slate-700  py-6">
+                    <span class="border-r-4 border-slate-700 px-10 py-7 text-3xl">&#8249;</span>
+                        <span class="px-10 py-6 text-3xl">&#8250;</span>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!-- Card Here -->
+        <div class="w-full h-auto flex justify-evenly items-center py-4 text-gray-700 pb-12">
+            <!-- Card1 -->
+            <div class="p-6 shadow-lg hover:shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] transition-shadow bg-white grid place-items-center">
+                <span class="text-3xl font-bold pb-4">105 <span class="text-lg font-bold">lbs</span></span>
+                <p class="font-semibold">Net Weight</p>
+            </div>
+            
+            <!-- Card2 -->
+            <div class="p-6 shadow-lg hover:shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] transition-shadow bg-white grid place-items-center">
+                <span class="text-3xl font-bold pb-4">26 <span class="text-lg font-bold">mph</span></span>
+                <p class="font-semibold">Top Speed</p>
+            </div>
+            
+            <!-- Card3 -->
+            <div class="p-6 shadow-lg hover:shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] transition-shadow bg-white grid place-items-center">
+                <span class="text-3xl font-bold pb-4">38 <span class="text-lg font-bold">miles</span></span>
+                <p class="font-semibold">Top Range</p>
+            </div>
+            
+            <!-- Card4 -->
+            <div class="p-6 shadow-lg hover:shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] transition-shadow bg-white grid place-items-center">
+                <span class="text-3xl font-bold pb-4">89 <span class="text-lg font-bold">nm</span></span>
+                <p class="font-semibold">Max Torques</p>
+            </div>
+            
+            <!-- Card5 -->
+            <div class="p-6 shadow-lg hover:shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] transition-shadow bg-white grid place-items-center">
+                <span class="text-3xl font-bold pb-4">22% <span class="text-lg font-bold">slope</span> </span>
+                <p class="font-semibold">Hill Climbing</p>
+            </div>
+            
+            <!-- Card6 -->
+            <div class="p-6 shadow-lg hover:shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] transition-shadow bg-white grid place-items-center">
+                <span class="text-3xl font-bold pb-4">2x</span>
+                <p class="font-semibold">Hydralic Disc Brakes</p>
+            </div>
+        </div>
+
+        <!-- Section3 -->
+        <section class="w-full h-full">
+            <div class="text-center py-16 ">
+                <h1 class="text-5xl font-bold py-8 text-slate-800">Product Information</h1>
+                <p class="text-lg font-semibold text-slate-600 py-1 ">Our Scooter has following unique design and technology features:</p>
+            </div>
+            <div class="flex flex-wrap justify-between items-center">
+                <div>
+                    <img src="./assets/product information image.png" alt="">
+                </div>
+                <div class="mr-8 text-xl">
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        Lightweight aircraft grade aluminium frame
+                    </li>
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        Car grade lithium battery
+                    </li>
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        Self-balanced
+                    </li>
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        Plug n play
+                    </li>
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        Quick release adapter
+                    </li>
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        RFID key card
+                    </li>                    
+                </div>
+            </div>
+            <div class="w-fit text-center ml-20 py-20 ">
+                <img src="./assets/high efficiency motor.png" alt="">
+            </div>
+
+            <div class="text-center py-16 ">
+                <h1 class="text-5xl font-bold py-8 text-slate-800">Multiple Accessories</h1>
+                <p class="text-lg font-semibold text-slate-600 py-1 pb-12 ">There are multiple modes for the scooter for your multiple needs.</p>
+            </div>
+            <div class="flex flex-wrap justify-between items-center">
+                <div class="ml-16 text-xl">
+                    <h1 class="text-5xl font-bold py-8 text-slate-800">Golf Bag Rock</h1>
+
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        Material : Aluminium alloy
+                    </li>
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        Color : Black
+                    </li>
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        Capacity : 45lbs
+                    </li>
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        Ease : Steady & adjustable
+                    </li>
+                </div>
+                <div>
+                    <img src="./assets/golf bag rock.png" alt="">
+                </div>
+            </div>
+            
+            <div class="flex flex-wrap justify-between items-center">
+                <div>
+                    <img src="./assets/shopping rack.png" alt="">
+                </div>
+                <div class="mr-20 text-xl">
+                    <h1 class="text-5xl font-bold py-8 text-slate-800">Golf Bag Rock</h1>
+
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        Material : Aluminium alloy
+                    </li>
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        Color : Black
+                    </li>
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        Capacity : 45lbs
+                    </li>
+                    <li class="flex items-center gap-4 pb-8 font-semibold text-slate-600">
+                        <img src="./assets/Icon.png" alt="">
+                        Ease : Steady & adjustable
+                    </li>
+                </div>
+            </div>
+
+            <div class="text-center py-8">
+                <button class="border-2 rounded-md border-slate-950 px-24 py-4 font-bold    ">More Accesories Coming Soon</button>
+            </div>
+
+
+            <div class="text-center py-16 ">
+                <h1 class="text-5xl font-bold py-8 text-slate-800">Gallery</h1>
+                <p class="text-lg font-semibold text-slate-600 py-1 pb-12 ">View gallery of our products and make yourself satisfied w
+                    ith our creation.</p>
+            </div> 
+            <div class="flex flex-wrap justify-center gap-8">
+
+                        <div><span class="relative top-40 left-6 font-bold text-4xl text-gray-700"> Scooter</span>
+                            <img class="mt-24" src="./assets/gallery scooter.png" alt="">
+                        </div>
+                        <div><span class="relative top-16 left-8 font-bold text-4xl text-gray-700">Built Quality</span>
+                            <img class="h-fit" src="./assets/gallery built quality.png" alt="">
+                        </div>
+                        <div class="order-3">
+                            <span class="z-30 relative bottom-0 left-12  font-bold text-4xl text-gray-700">Parts</span>
+                            <img class="order-3 pl-2 -mt-20 z-10" src="./assets/gallery parts.png" alt="">
+                        </div>
+
+                     <div class="px-32 pt-12 order-2 gap-5">
+                        <div class="pb-4"><button class="border-2 w-full rounded-md border-slate-950 px-24 py-6 font-bold">Battery Images</button></div>
+                        
+                        <div class="pb-4"><button class="border-2 w-full rounded-md border-slate-950 px-24 py-6 font-bold">Spare Parts Images</button></div>
+                        
+                        <div class="pb-4"><button class="border-2 w-full rounded-md border-slate-950 px-24 py-6 font-bold">Charging Cable Images</button></div>
+                    </div>  
+            </div>
+        </section>
+
+        <section class="w-full h-fit">
+
+                <div class="text-center py-16 ">
+                    <h1 class="text-5xl font-bold py-8 text-slate-800">Colors</h1>
+                    <p class="text-lg font-semibold text-slate-600 py-1 pb-12 ">Checkout our products colors.</p>
+                </div> 
+    
+                <div>
+                    <img class="w-full mx-auto h-fit" src="./assets/gallery scooter.png" alt="">
+              
+                <div class="w-full flex relative bottom-40 mb-0">
+                    <div>
+                        <span class="absolute bottom-24 text-gray-300 left-60 text-5xl font-bold">01</span>
+                        <img class="w-fit h-fit" src="./assets/color-scooter-1.png" alt="">
+                    </div>
+                    <div>
+                        <span class="absolute bottom-24 text-gray-300 left-[625px] text-5xl font-bold">02</span>
+                        <img class="w-fit h-fit" src="./assets/color-scooter-2.png" alt="">
+                    </div>
+                    <div>
+                        <span class="absolute bottom-24 text-gray-300 right-[445px] text-5xl font-bold">03</span>
+                        <img class="w-fit h-fit" src="./assets/color-scooter-3.png" alt="">
+                    </div>
+                    <div>
+                        <span class="absolute bottom-24 text-gray-300 right-14 text-5xl font-bold">04</span>
+                        <img class="w-fit h-fit" src="./assets/color-scooter-4.png" alt="">
+                    </div>
+                      </div>
+                </div>
+        </section>
+
+        <section class="bg-[#FCFCF9] w-full h-full py-6 relative bottom-28">
+            <h1 class="text-center text-5xl font-bold text-gray-800 py-10">Testimonial</h1>
+
+            <div>  
+                <div class="cards flex justify-center items-center gap-8">
+                    <!-- CARD 1 -->
+                    <div class="card1 border-2 hover:bg-white hover:border-none hover:shadow-xl w-96 h-80 transition-shadow">
+                        <div class="flex items-center gap-1  py-4 justify-center">
+                            <!-- 1st star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                            <!-- 2nd star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                            <!-- 3rd star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                            <!-- 4th star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                            <!-- 5th star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                    </div>
+                    <p class=" w-96 px-8 text-center text-xl py-2 pb-8 font-semibold text-slate-700">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
+                    <div>
+                        <div class="flex justify-center items-center py-2 gap-4">
+                            <img src="./assets/serhiy hipskyy.png" alt="">
+                        <div class="">
+                            <h1 class="font-bold">Serhiy Hipskyy</h1>
+                            <span class="font-semibold text-gray-600">CEO Universal</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                    <!-- CARD 2 -->
+                    <div class="card2 border-2 hover:bg-white hover:border-none hover:shadow-xl w-96 h-80 transition-shadow">
+                        <div class="flex items-center gap-1  py-4 justify-center">
+                            <!-- 1st star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                            <!-- 2nd star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                            <!-- 3rd star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                            <!-- 4th star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                            <!-- 5th star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                    </div>
+                    <p class=" w-96 px-8 text-center text-xl py-2 pb-8 font-semibold text-slate-700">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                    <div>
+                        <div class="flex justify-center items-center py-2 gap-4">
+                            <img src="./assets/Justus Menke.png" alt="">
+                        <div class="">
+                            <h1 class="font-bold">Justus Menke</h1>
+                            <span class="font-semibold text-gray-600">CEO Eronaman</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                    <!-- CARD 3 -->
+                    <div class="card3 border-2 hover:bg-white hover:border-none hover:shadow-xl w-96 h-80 transition-shadow">
+                        <div class="flex items-center gap-1  py-4 justify-center">
+                            <!-- 1st star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                            <!-- 2nd star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                            <!-- 3rd star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                            <!-- 4th star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                            <!-- 5th star -->
+                            <svg width="16" height="16" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#FDD835" d="m68.05 7.23l13.46 30.7a7.047 7.047 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.033 7.033 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.047 7.047 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"/>
+                                <path fill="#FFFF8D" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"/>
+                                <path fill="#F4B400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"/>
+                            </svg>
+                    </div>
+                    <p class=" w-96 px-8 text-center text-xl py-2 pb-8 font-semibold text-slate-700">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
+                    <div>
+                        <div class="flex justify-center items-center py-2 gap-4">
+                            <img src="./assets/Britain Eriksen.png" alt="">
+                        <div class="">
+                            <h1 class="font-bold">Britain Eriksen</h1>
+                            <span class="font-semibold text-gray-600">CEO Universal</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+        <!-- Left Right Icon -->
+            <div class="py-8 flex justify-center items-center gap-4">
+                <div class="w-auto h-auto px-4 py-4 rounded-full border-2 border-gray-700 cursor-pointer text-gray-800">
+                    <svg class="w-4 h-4" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="currentColor" d="m257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3"/>
+                </svg>
+                </div>
+                <div class="w-auto h-auto px-4 py-4 rounded-full border-2 border-gray-700 cursor-pointer bg-gray-700 text-white">
+                    <svg class="w-4 h-4" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="currentColor" d="m190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3"/>
+                </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- NewsLetter -->
+        <section class="text-center py-4 relative bottom-20">
+            <h1 class="text-5xl font-bold py-4">Subscribe To Newsletter</h1>
+            <p class="text-lg font-medium text-slate-700 pb-12">Subscribe to our newsletter to get amazing offers in future.</p>
+            <div class=" pb-4">
+                <input class="px-6 pr-20 py-4 shadow-inner border-2 rounded-lg text-green-400" type="email" placeholder="Enter your email.">
+                <input class="border-2 bg-slate-600 text-white px-5 py-4 rounded-lg" type="submit" value="Get Start">
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="bg-gray-700">
+            <div class="flex text-white w-full h-96">
+                <img class="relative bottom-16" src="assets/footer scooter.png" alt="">
+            <!-- Footer Links -->
+            <div class="w-full flex justify-evenly items-center">
+                <div class="list-none">
+                    <h1 class="font-bold text-2xl relative right-1 pb-6">About</h1>
+                    <li class="pb-3 hover:text-red-400 text-gray-300">Company</li>
+                    <li class="pb-3 hover:text-red-400 text-gray-300">Teams</li>
+                    <li class="pb-3 hover:text-red-400 text-gray-300">Profile</li>
+                    <li class="pb-3 hover:text-red-400 text-gray-300">Careers</li>
+                </div>
+                <div class="list-none">
+                    <h1 class="font-bold text-2xl relative right-1 pb-6">Resourses</h1>
+                    <li class="pb-3 hover:text-red-400 text-gray-300">Contact</li>
+                    <li class="pb-3 hover:text-red-400 text-gray-300">Application</li>
+                    <li class="pb-3 hover:text-red-400 text-gray-300">FQA Features</li>
+                    <li class="pb-3 hover:text-red-400 text-gray-300">Gallery</li>
+                </div>
+                <div class="list-none relative -top-2">
+                    <h1 class="font-bold text-2xl relative right-1 pb-6">Legal</h1>
+                    <li class="pb-3 hover:text-red-400 text-gray-300">Copyright Privacy</li>
+                    <li class="pb-3 hover:text-red-400 text-gray-300">Application</li>
+                    <li class="pb-6 hover:text-red-400 text-gray-300">Terms</li>
+                    <div class="flex gap-4">
+                        <svg class="cursor-pointer" width="26" height="26" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131c.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg>
+                        <svg class="cursor-pointer" width="26" height="26" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" d="M1200 216.995c-8.026 16.946-22.966 38.351-44.816 64.214s-48.828 48.606-80.937 68.227c.893 7.136 1.562 13.824 2.007 20.067c3.463 96.12-19.561 195.847-51.505 278.93c-61.918 154.473-156.795 278.795-292.308 363.21c-141.314 81.058-305.892 98.298-457.525 83.612C174.25 1083.694 75.033 1050.822 0 988.901c137.233 16.404 265.305-30.28 366.555-105.687c-112.472 2.847-194.191-78.514-232.775-172.575c17.393 4.559 35.588 4.009 52.174 2.677c20.416-1.918 39.796-3.833 58.863-8.026c-71.717-23.139-134.469-65.675-167.224-129.767c-19.213-40.61-27.888-79.282-28.093-123.077c33.605 17.693 74.028 34.937 111.037 33.444c-55.892-47.347-100.7-107.857-109.03-177.258c-5.259-57.866 9.221-110.688 30.101-159.866c83.607 91.885 177.415 167.502 285.618 214.047c73.998 30.302 147.786 46.507 224.081 46.822c-8.807-68.145-1.959-134.05 30.101-189.967c37.73-60.118 92.778-94.998 154.516-112.375c88.337-22.652 174.496 9.345 228.763 70.903c58.521-6.321 114.58-32.283 159.197-58.863c-18.958 57.41-55.874 114.492-109.699 141.806c51.247-9.488 100.149-24.659 145.815-44.144"/>
+                        </svg>
+                        <svg class="cursor-pointer" width="26" height="26" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" d="M12 0C8.74 0 8.333.015 7.053.072C5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053C.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913a5.885 5.885 0 0 0 1.384 2.126A5.868 5.868 0 0 0 4.14 23.37c.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558a5.898 5.898 0 0 0 2.126-1.384a5.86 5.86 0 0 0 1.384-2.126c.296-.765.499-1.636.558-2.913c.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913a5.89 5.89 0 0 0-1.384-2.126A5.847 5.847 0 0 0 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0m0 2.16c3.203 0 3.585.016 4.85.071c1.17.055 1.805.249 2.227.415c.562.217.96.477 1.382.896c.419.42.679.819.896 1.381c.164.422.36 1.057.413 2.227c.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227a3.81 3.81 0 0 1-.899 1.382a3.744 3.744 0 0 1-1.38.896c-.42.164-1.065.36-2.235.413c-1.274.057-1.649.07-4.859.07c-3.211 0-3.586-.015-4.859-.074c-1.171-.061-1.816-.256-2.236-.421a3.716 3.716 0 0 1-1.379-.899a3.644 3.644 0 0 1-.9-1.38c-.165-.42-.359-1.065-.42-2.235c-.045-1.26-.061-1.649-.061-4.844c0-3.196.016-3.586.061-4.861c.061-1.17.255-1.814.42-2.234c.21-.57.479-.96.9-1.381c.419-.419.81-.689 1.379-.898c.42-.166 1.051-.361 2.221-.421c1.275-.045 1.65-.06 4.859-.06zm0 3.678a6.162 6.162 0 1 0 0 12.324a6.162 6.162 0 1 0 0-12.324M12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4s4 1.79 4 4s-1.79 4-4 4m7.846-10.405a1.441 1.441 0 0 1-2.88 0a1.44 1.44 0 0 1 2.88 0"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="text-white bg-gray-700 w-full text-center relative bottom-6 text-xl">&#169; Copyright 2021. All rights reserved.</div>
+        </footer>
+       
+</body>
+</html>
