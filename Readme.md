@@ -1,1 +1,1 @@
-# Each file has its own 'Readme.md' file. If You want to see just go an open it.
+# Each file has its own 'Readme.md' file. If You want to see just go and open it.
